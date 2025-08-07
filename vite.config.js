@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // GitHub Pages用の相対パス設定
+  base: '/natsuto-yamaguchi-portfolio/', // GitHub Pages用の正しいパス設定
   build: {
     outDir: 'dist',
     assetsDir: 'assets'
